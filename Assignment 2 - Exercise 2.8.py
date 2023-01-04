@@ -1,4 +1,7 @@
-pip install tabulate
-from tabulate install tabulate
-table = [['Number', 'Square', 'Cube'], [0, 0**2, 0**3], [1, 1**2, 1**3], [2, 2**2, 2**3], [3, 3**2, 3**3], [4, 4**2, 4**3], [5, 5**2, 5**3]]
-print(tabulate(table))
+print('Number\t Square\t Cube')
+print(0, '\t', '\t', 0 ** 2, '\t', '\t', 0 ** 3)
+print(1, '\t', '\t', 1 ** 2, '\t', '\t', 1 ** 3)
+print(2, '\t', '\t', 2 ** 2, '\t', '\t', 2 ** 3)
+print(3, '\t', '\t', 3 ** 2, '\t', '\t', 3 ** 3)
+print(4, '\t', '\t', 4 ** 2, '\t', 4 ** 3)
+print(5, '\t', '\t', 5 ** 2, '\t', 5 ** 3)
