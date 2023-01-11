@@ -1,5 +1,6 @@
 USD = float(input('Enter US Dollars to Convert to Pounds, Euros, and Canadian Dollars: '))
 
+# As per the instructions, supposed to create A function    -5
 def britishpound(USD): 
     return float((0.82/1) * USD)
 
