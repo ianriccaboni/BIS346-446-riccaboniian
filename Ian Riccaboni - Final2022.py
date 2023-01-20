@@ -9,7 +9,7 @@ import pandas as pd
 import pickle
 
 import matplotlib as mpl
-import matploblib.pyplot as plt
+import matplotlib.pyplot as plt
 
 plt.style.available[:20]
 plt.style.use('seaborn')
