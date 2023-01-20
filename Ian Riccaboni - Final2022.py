@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 plt.style.available[:20]
 plt.style.use('seaborn')
 
-YT = pd.read.csv('Bananas.csv')
+YT = pd.read_csv('Bananas.csv')
 
 YT['Bananas price per lb'].describe().apply("{0:.2f}".format)
 YT['Date Sold']=pd.to_datetime(YT['DATE'], infer_datetime_format=True)
